@@ -1,0 +1,23 @@
+div.box>div.header{height:150px;}
+div.box>div.main{width:95%;height:500px;margin:0 auto;position:relative;}
+div.box>div.main>div.left{width:40%;height:99%;float:left;}
+div.box>div.main>div.left>h3{font-size:23px;color:#6A7374;width:99%;}
+div.box>div.main>div.left>img{width:60%;margin-top:10px;border:2px solid white;}
+div.box>div.main>div.left>p{margin-top:10px;color:#6A7374;width:99%;}
+div.box>div.main>div.right{width:60%;height:100%;float:right;}
+div.box>div.main>div.right>h3{font-size:23px;color:#6A7374;width:99%;}
+div.box>div.main>div.right>form>p{margin-top:20px;color:#6A7374;}
+div.box>div.main>div.right>form>input{width:90%;height:30px;font-size:20px}
+div.box>div.main>div.right>form>input.inp{width:44.9%;border-color:transparent;background:#FE7B9A}
+div.box>div.main>div.right>form>textarea{width:90%;;height:120px;resize:none}
+div.box>div.main>button{width:100px;height:40px;font-size:20px;background:transparent;border-color:transparent;position:absolute;bottom:-50px;right:0px}
+div.box>div.main>button>a{color:#000;}
+div.box>div.main>button>a:hover{color:pink;}
+
+@media screen and (min-width:0px) and (max-width:600px){
+	body{width:100%;height:100%;background: url('../images/bg.jpg') no-repeat 0 0/100% 5000px;}
+	div.box>div.main{height:1000px;}
+	div.box>div.main>div.left{width:99%;height:50%;padding-left:30px;box-sizing:border-box;}
+	div.box>div.main>div.right{width:99%;height:50%}
+	div.box>div.main>button{position:absolute;bottom:-10px;right:5px}
+}

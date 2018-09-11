@@ -1,0 +1,31 @@
+div.box>div.nav{width:95%;height:250px;margin:0 auto;background:#373737;border-radius:30px}
+div.box>div.nav>ul{width:100%;height: 250px;}
+div.box>div.nav>ul>li{width:20%;height:250px;float:left;text-align:center;position:relative;}
+div.box>div.nav>ul>li>span{display:block;width:100%;height:35px;position:absolute;bottom:20px;text-align:center;font-size:30px;color:white;display:none;}
+div.box>div.nav>ul>li>p{width:100%;height:35px;position:absolute;bottom:20px;text-align:center;font-size:30px;color:white;}
+div.box>div.nav>ul>li:hover>p{color:#FE7B9A;}
+div.box>div.nav>ul>li:hover>span{color:#FE7B9A;}
+div.box>div.nav>ul>li:hover>div>a{transform:scale(1.2);border-color:#FE7B9A;}
+div.box>div.nav>ul>li>div{width:100%;height:250px;text-align:center;}
+div.box>div.nav>ul>li>div>a{display:inline-block;width:101px;height:101px;background:#9a9a9a;margin-top:50px;border:3px solid white;border-radius:50%;-webkit-transition:transform 1s;}
+div.box>div.nav>ul>li>div>a>img{border-radius:50%}
+@media screen and (min-width:480px) and (max-width:600px){
+	div.box>div.nav{height:600px;}
+	div.box>div.nav>ul{width:100%;height:100%;}
+	div.box>div.nav>ul>li{width:100%;height:20%;}
+	div.box>div.nav>ul>li:hover{background:#837f90}
+	div.box>div.nav>ul>li>p{width:20%;height:31%;position:absolute;right:10px;top:40px;font-size:25px}
+	div.box>div.nav>ul>li>div{width:69%;height:100%;text-align:left;padding-left:10px;position:relative;}
+	div.box>div.nav>ul>li>div>a{position:absolute;left:10px;top:-45px;}
+}
+@media screen and (min-width:0px) and (max-width:479px){
+	div.box>div.nav{height:500px;}
+	div.box>div.nav>ul{width:100%;height:100%;}
+	div.box>div.nav>ul>li{width:100%;height:20%;}
+	div.box>div.nav>ul>li:hover{background:#837f90}
+	div.box>div.nav>ul>li>p{width:20%;height:30%;position:absolute;left:10px;top:30px;font-size:30px}
+	div.box>div.nav>ul>li>span{display:block;width:20%;height:30%;position:absolute;right:10px;top:30px;}
+	div.box>div.nav>ul>li>div{width:50px;height:50px;position:absolute;top:-30px;left:45%}
+	div.box>div.nav>ul>li>div>a{background:transparent;border-color:transparent;width:100%;height:100%;}
+	div.box>div.nav>ul>li>div>a>img{width:100%;height:100%;}
+}
