@@ -1,0 +1,78 @@
+
+/*通用样式*/
+*{margin:0;padding:0;}
+ul>li{list-style:none;}
+a{text-decoration:none;}
+
+div.rwap{width:1200px;height:auto;margin:0 auto}
+
+/*网页头部样式开始*/
+div.rwap>.head{width:100%;height:576px;}
+
+
+div.rwap>.head>.top{width:100%;height:50px;background:#323436;border-bottom:2px solid #FF5402}
+div.rwap>.head>.top>img{margin:5px 0px 0px 30px}
+div.rwap>.head>.top>div{float:right;}
+div.rwap>.head>.top>.nav>ul>li{float:left;text-align:center;line-height:50px;margin: 0px 20px 0px 0px;}
+div.rwap>.head>.top>.nav>ul>li>a{color:#949494}
+div.rwap>.head>.top>.nav>ul>li>a:hover{color:orange}
+
+
+div.rwap>.head>.bottom{width:100%;height:524px;background:url(../image/pic.jpg) no-repeat 0 0;overflow:hidden;}
+div.rwap>.head>.bottom>.text{width:765px;height:400px;margin:80px auto;text-align:center;color:#fff;}
+div.rwap>.head>.bottom>.text>h1{font-size:45px}
+div.rwap>.head>.bottom>.text>h2{margin-top:25px;letter-spacing:20px}
+div.rwap>.head>.bottom>.text>span.left{display:inline-block; margin-top:80px;font-size:30px;width:200px;height:60px;background:rgba(255,120,0,0.2);line-height:60px;border:2px solid orange}
+div.rwap>.head>.bottom>.text>span.left>a{display:inline-block;color:#fff}
+div.rwap>.head>.bottom>.text>span.left:hover>a{color:red}
+div.rwap>.head>.bottom>.text>span.right{display:inline-block; margin-top:80px;font-size:30px;width:200px;height:60px;background:#FF7800;line-height:60px;border:2px solid #FF7800}
+div.rwap>.head>.bottom>.text>span.right>a{display:inline-block;color:#fff}
+div.rwap>.head>.bottom>.text>span.right:hover>a{color:red}
+div.rwap>.head>.bottom>.text>p{font-size:20px;position:relative;top:65px;}
+div.rwap>.head>.bottom>.text>p.bottom{margin-top:15px;}
+div.rwap>.head>.bottom>.text>p>span{font-size:40px;color:#FF7800}
+/*网页头部样式结束*/
+
+/*网页内容样式开始*/
+div.rwap>.mean{width:100%;height:1102px;text-align:center;overflow:hidden;}
+div.rwap>.mean>h2{font-size:30px;margin-top:60px;}
+div.rwap>.mean>p{color:#8a8686;font-size:14px;}
+
+div.rwap>.mean>.mOne{width:100%;height:140px;margin-top:30px}
+div.rwap>.mean>.mOne>ul{width:100%;height:100%;}
+div.rwap>.mean>.mOne>ul>li{width:19%;height:100%;float:left;padding:0px 5px;}
+div.rwap>.mean>.mOne>ul>li>a{display:block;}
+div.rwap>.mean>.mOne>ul>li>a:hover>p{color:orange;}
+div.rwap>.mean>.mOne>ul>li>a>img{width:68px;height:68px}
+div.rwap>.mean>.mOne>ul>li>a>span{display:block;color:#000;font-size:20px;margin-top:10px;}
+div.rwap>.mean>.mOne>ul>li>a>p{color:#8a8686;font-size:16px;}
+
+div.rwap>.mean>.mTwo{width:73%;height:450px;background:url(../image/pc.jpg) no-repeat 0 0;margin:30px auto;}
+
+div.rwap>.mean>.mThree{width:100%;height:101px;margin-top:20px}
+div.rwap>.mean>.mThree>ul>li{float:left;margin-left:5px}
+div.rwap>.mean>.mThree>ul>li:hover{position:relative;top:-4px;}
+/*网页内容样式结束*/
+
+
+/*网页尾部样式开始*/
+div.footer{width:100%;height:auto;}
+div.footer>.fOne{width:100%;height:288px;background:url(../image/bg.jpg) no-repeat 0 0/100%;text-align:center;color:#fff;margin-top:30px; overflow:hidden;}
+div.footer>.fOne>h2{margin-top:70px;font-size:40px}
+div.footer>.fOne>p{margin-top:50px;font-size:20px}
+div.footer>.fOne>span{display:block;margin-top:30px;font-size:20px}
+
+div.footer>.fTwo{width:100%;height:260 px;background:#333;overflow:hidden;}
+div.footer>.fTwo>.text{width:95%;height:140px;margin:0 auto;border-bottom:4px solid #222}
+div.footer>.fTwo>.text>.left{float:left;width:500px;height:100px;overflow:hidden;}
+div.footer>.fTwo>.text>.left>span{display:block;color:#fff;margin-top:10px;font-size:20px}
+div.footer>.fTwo>.text>.left>a{display:inline-block;color:#666;margin:10px 10px 0px 0px;font-size:18px}
+div.footer>.fTwo>.text>.left>a:hover{color:orange}
+div.footer>.fTwo>.text>.left>p{display:block;color:#fff;margin-top:10px;font-size:15px}
+
+div.footer>.fTwo>.text>.right{float:right;width:100px;height:127px;margin-top:10px;}
+div.footer>.fTwo>.text>.right>img{width:100%}
+
+div.footer>.fThree{width:100%;height:30px;background:#333;overflow:hidden;}
+div.footer>.fThree>p{width:95%;height:100%;line-height:30px;padding-left:30px;color:#666}
+/*网页尾部样式结束*/
